@@ -1,8 +1,22 @@
-# SliceHub-Library
+Metadata-Version: 2.4
+Name: slicehub
+Version: 0.1.0
+Summary: Modular backend SDK for building Super Apps
+Author-email: Vatsalya <vatbhadaurya@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/VatsalyaBhadaurya/SliceHub-Library
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.100
+Requires-Dist: uvicorn[standard]>=0.22
+Requires-Dist: SQLAlchemy>=2.0
+Requires-Dist: psycopg2-binary>=2.9
+Requires-Dist: python-jose>=3.3
 
-<p align="center">
-  <img src="assets/logo.png" alt="SliceHub logo" width="200"/>
-</p>
+# SliceHub-Library
 
 SliceHub is a modular backend SDK for building Super Apps consisting of independent "slices" plugged into a central hub. This repository contains the core library (v0.1.0) along with an example slice and usage.
 
