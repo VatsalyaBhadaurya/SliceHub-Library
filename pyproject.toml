@@ -3,7 +3,7 @@ name = "slicehub"
 version = "0.1.0"
 description = "Modular backend SDK for building Super Apps"
 authors = [
-    { name="Your Name", email="you@example.com" }
+    { name="Vatsalya", email="vatbhadaurya@gmail.com" }
 ]
 readme = "README.md"
 requires-python = ">=3.10"
@@ -21,9 +21,11 @@ classifiers = [
 requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[project.dependencies]
-fastapi = "^0.100"
-uvicorn = {extras = ["standard"], version = "^0.22"}
-SQLAlchemy = "^2.0"
-psycopg2-binary = "^2.9"
-python-jose = "^3.3"
+[project]
+dependencies = [
+    "fastapi >=0.100",
+    "uvicorn[standard] >=0.22",
+    "SQLAlchemy >=2.0",
+    "psycopg2-binary >=2.9",
+    "python-jose >=3.3",
+]
